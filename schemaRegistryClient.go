@@ -507,7 +507,7 @@ func getConcreteSubject(subject string, isKey bool) string {
 	if isKey {
 		subject = fmt.Sprintf("%s-key", subject)
 	} else {
-		subject = fmt.Sprintf("%s-value", subject)
+		subject = fmt.Sprintf("%s", subject)
 	}
 	return subject
 }
